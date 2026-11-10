@@ -347,3 +347,33 @@ body {
   text-align: center;
   font-size: 13px;
 }
+/* Hiệu ứng chọn phương án bỏ phiếu */
+.option-box {
+  padding: 10px 12px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.option-box:hover {
+  border-color: #93c5fd;
+  background-color: #f8fafc;
+}
+
+.option-box.selected {
+  border-color: #2563eb;
+  background-color: #eff6ff;
+}
+
+.btn-voted {
+  padding: 7px 14px;
+  font-size: 13px;
+  border: none;
+  border-radius: 8px;
+  background: #16a34a;
+  color: white;
+  font-weight: 600;
+  cursor: default;
+}
